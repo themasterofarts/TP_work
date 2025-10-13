@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ghislain/TP_work/build/first_robot
+-- Install configuration: ""
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//launch
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//launch/launch
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//launch/launch/launch.py
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//config
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//config/bridge.yaml
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/camera.xacro
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/Inertial.xacro
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/Gazebo_control.xacro
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/robot.urdf.xacro
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/gps.xacro
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/building_robot.xacro
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/lidar.xacro
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//worlds
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//worlds/World.world
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/ament_index/resource_index/package_run_dependencies/first_robot
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/ament_index/resource_index/parent_prefix_path/first_robot
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/ament_prefix_path.sh
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/path.sh
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/path.dsv
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.bash
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.sh
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.zsh
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.dsv
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/package.dsv
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/ament_index/resource_index/packages/first_robot
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/cmake/first_robotConfig.cmake
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/cmake/first_robotConfig-version.cmake
+-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/package.xml

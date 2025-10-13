@@ -5,67 +5,56 @@
   <joint name="gnss_joint" type="fixed">
     <parent link="chassis"/>
     <child link="gnss_frame"/>
-    <!-- Positionne le GNSS (exemple au-dessus du châssis) -->
-    <origin xyz="0.10 0 0.80" rpy="0 0 0"/>
+    <origin xyz="1.3 0.75 0.60" rpy="0 0 0"/>
   </joint>
 
   <!-- Lien du capteur GNSS (petit cylindre pour le visuel) -->
   <link name="gnss_frame">
-   <visual>
+    <visual>
       <geometry>
-        <cylinder radius="0.03" length="0.02"/>
+        <cylinder radius="0.03" length="0.5"/>
       </geometry>
       <material name="black"/>
     </visual>
     <collision>
       <geometry>
-        <cylinder radius="0.03" length="0.02"/>
+        <cylinder radius="0.03" length="0.5"/>
       </geometry>
     </collision>
-    <xacro:inertial_cylinder mass="0.05" length="0.02" radius="0.03">
+    <xacro:inertial_cylinder mass="0.05" length="0.5" radius="0.03">
       <origin xyz="0 0 0" rpy="0 0 0"/>
     </xacro:inertial_cylinder> 
   </link>
 
-  <!-- Définition du capteur GNSS pour Gazebo Sim -->
+  <!-- Capteur GNSS compatible Fortress -->
   <gazebo reference="gnss_frame">
-    <material>Gazebo/Black</material>
-
-    <!-- Capteur GNSS -->
-    <sensor name="gnss" type="navsat">
+    <sensor name="gnss_sensor" type="gps">
       <pose>0 0 0 0 0 0</pose>
-      <!-- topic côté Gazebo ; tu peux changer -->
-      <topic>/gnss/fix</topic>
-      <!-- Frame publiée (utile pour le bridge ROS2) -->
-      <gz_frame_id>gnss_frame</gz_frame_id>
       <update_rate>10</update_rate>
-
+      <topic>/gps/fix</topic>
+      <always_on>true</always_on>
       <navsat>
-        <!-- Modèle de bruit simple ; ajuste à ta convenance -->
-        
         <position_sensing>
           <horizontal>
             <noise type="gaussian">
               <mean>0.0</mean>
-              <stddev>0.5</stddev>      <!-- ~0.5 m -->
+              <stddev>0.5</stddev>
             </noise>
           </horizontal>
           <vertical>
             <noise type="gaussian">
               <mean>0.0</mean>
-              <stddev>1.0</stddev>      <!-- ~1.0 m -->
+              <stddev>1.0</stddev>
             </noise>
           </vertical>
         </position_sensing>
         <velocity_sensing>
           <noise type="gaussian">
             <mean>0.0</mean>
-            <stddev>0.1</stddev>        <!-- optionnel -->
+            <stddev>0.1</stddev>
           </noise>
         </velocity_sensing>
       </navsat>
-
-      <!-- Affichage dans l’UI de Gazebo (facultatif) -->
       <visualize>true</visualize>
     </sensor>
   </gazebo>

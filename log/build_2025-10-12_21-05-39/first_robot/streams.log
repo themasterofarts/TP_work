@@ -1,0 +1,48 @@
+[0.141s] Invoking command in '/home/ghislain/TP_work/build/first_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ghislain/TP_work -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ghislain/TP_work/install/first_robot
+[0.357s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.089s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.211s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.080s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.081s] -- Configured cppcheck include dirs: 
+[2.081s] -- Configured cppcheck exclude dirs and/or files: 
+[2.128s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.220s] -- Added test 'lint_cmake' to check CMake code style
+[2.263s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.677s] -- Added test 'uncrustify' to check C / C++ code style
+[2.678s] -- Configured uncrustify additional arguments: 
+[2.728s] -- Added test 'xmllint' to check XML markup files
+[2.763s] -- Configuring done
+[2.805s] -- Generating done
+[2.810s] -- Build files have been written to: /home/ghislain/TP_work/build/first_robot
+[2.817s] Invoked command in '/home/ghislain/TP_work/build/first_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ghislain/TP_work -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ghislain/TP_work/install/first_robot
+[2.823s] Invoking command in '/home/ghislain/TP_work/build/first_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ghislain/TP_work/build/first_robot -- -j4 -l4
+[2.966s] Invoked command in '/home/ghislain/TP_work/build/first_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ghislain/TP_work/build/first_robot -- -j4 -l4
+[2.999s] Invoking command in '/home/ghislain/TP_work/build/first_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ghislain/TP_work/build/first_robot
+[3.015s] -- Install configuration: ""
+[3.015s] -- Execute custom install script
+[3.017s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//launch/launch/launch.py
+[3.048s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//config/bridge.yaml
+[3.082s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/Gazebo_control.xacro
+[3.124s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/Inertial.xacro
+[3.157s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/building_robot.xacro
+[3.184s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/camera.xacro
+[3.220s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/gps.xacro
+[3.255s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/lidar.xacro
+[3.278s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/robot.urdf.xacro
+[3.315s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot//worlds/World.world
+[3.336s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/ament_index/resource_index/package_run_dependencies/first_robot
+[3.361s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/ament_index/resource_index/parent_prefix_path/first_robot
+[3.385s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/ament_prefix_path.sh
+[3.412s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/ament_prefix_path.dsv
+[3.434s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/path.sh
+[3.460s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/path.dsv
+[3.493s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.bash
+[3.521s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.sh
+[3.551s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.zsh
+[3.582s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.dsv
+[3.612s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/package.dsv
+[3.677s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/ament_index/resource_index/packages/first_robot
+[3.720s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/cmake/first_robotConfig.cmake
+[3.763s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/cmake/first_robotConfig-version.cmake
+[3.795s] -- Symlinking: /home/ghislain/TP_work/install/first_robot/share/first_robot/package.xml
+[3.820s] Invoked command in '/home/ghislain/TP_work/build/first_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ghislain/TP_work/build/first_robot

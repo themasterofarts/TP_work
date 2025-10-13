@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (first_robot) JobQueued: {'identifier': 'first_robot', 'dependencies': OrderedDict()}
+[0.000672] (first_robot) JobStarted: {'identifier': 'first_robot'}
+[0.037037] (first_robot) JobProgress: {'identifier': 'first_robot', 'progress': 'cmake'}
+[0.037726] (first_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/ghislain/TP_work', '-DCMAKE_INSTALL_PREFIX=/home/ghislain/TP_work/install/first_robot'], 'cwd': '/home/ghislain/TP_work/build/first_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghislain'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ghislain'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ghislain'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghislain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ghislain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ghislain-G551JM:@/tmp/.ICE-unix/1487,unix/ghislain-G551JM:/tmp/.ICE-unix/1487'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e1917954_f46f_4e25_8af0_35a845e7b8a5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghislain/TP_work/build/first_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/ghislain/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099750] (-) TimerEvent: {}
+[0.200186] (-) TimerEvent: {}
+[0.300675] (-) TimerEvent: {}
+[0.401069] (-) TimerEvent: {}
+[0.501437] (-) TimerEvent: {}
+[0.601812] (-) TimerEvent: {}
+[0.702461] (-) TimerEvent: {}
+[0.803223] (-) TimerEvent: {}
+[0.903937] (-) TimerEvent: {}
+[1.004587] (-) TimerEvent: {}
+[1.105207] (-) TimerEvent: {}
+[1.205847] (-) TimerEvent: {}
+[1.306444] (-) TimerEvent: {}
+[1.406959] (-) TimerEvent: {}
+[1.505609] (first_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.507015] (-) TimerEvent: {}
+[1.607410] (-) TimerEvent: {}
+[1.707981] (-) TimerEvent: {}
+[1.808409] (-) TimerEvent: {}
+[1.909769] (-) TimerEvent: {}
+[2.010399] (-) TimerEvent: {}
+[2.026839] (first_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.110620] (-) TimerEvent: {}
+[2.129535] (first_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.210739] (-) TimerEvent: {}
+[2.311328] (-) TimerEvent: {}
+[2.382789] (first_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.391521] (first_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.391983] (first_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.398116] (first_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.407166] (first_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.411414] (-) TimerEvent: {}
+[2.511786] (-) TimerEvent: {}
+[2.531973] (first_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.540695] (first_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.540975] (first_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.541519] (first_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.595468] (first_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.612071] (-) TimerEvent: {}
+[2.712687] (-) TimerEvent: {}
+[2.813057] (-) TimerEvent: {}
+[2.913496] (-) TimerEvent: {}
+[2.913763] (first_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.013630] (-) TimerEvent: {}
+[3.113996] (-) TimerEvent: {}
+[3.156844] (first_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.214155] (-) TimerEvent: {}
+[3.314550] (-) TimerEvent: {}
+[3.329094] (first_robot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.329508] (first_robot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.329690] (first_robot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.332753] (first_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.338031] (first_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.341465] (first_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.359922] (first_robot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.360546] (first_robot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.364084] (first_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.367544] (first_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.375360] (first_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[3.378619] (first_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/ghislain/TP_work/build/first_robot\n'}
+[3.384229] (first_robot) CommandEnded: {'returncode': 0}
+[3.384989] (first_robot) JobProgress: {'identifier': 'first_robot', 'progress': 'build'}
+[3.386426] (first_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ghislain/TP_work/build/first_robot', '--', '-j4', '-l4'], 'cwd': '/home/ghislain/TP_work/build/first_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghislain'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ghislain'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ghislain'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghislain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ghislain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ghislain-G551JM:@/tmp/.ICE-unix/1487,unix/ghislain-G551JM:/tmp/.ICE-unix/1487'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e1917954_f46f_4e25_8af0_35a845e7b8a5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghislain/TP_work/build/first_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/ghislain/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.414663] (-) TimerEvent: {}
+[3.427050] (first_robot) CommandEnded: {'returncode': 0}
+[3.428097] (first_robot) JobProgress: {'identifier': 'first_robot', 'progress': 'install'}
+[3.436915] (first_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ghislain/TP_work/build/first_robot'], 'cwd': '/home/ghislain/TP_work/build/first_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghislain'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ghislain'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2859'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ghislain'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghislain'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ghislain/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ghislain-G551JM:@/tmp/.ICE-unix/1487,unix/ghislain-G551JM:/tmp/.ICE-unix/1487'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e1917954_f46f_4e25_8af0_35a845e7b8a5'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghislain/TP_work/build/first_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/ghislain/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.446174] (first_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.446603] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//launch\n'}
+[3.446770] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//launch/launch\n'}
+[3.446950] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//launch/launch/launch.py\n'}
+[3.447107] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//config\n'}
+[3.447299] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//config/bridge.yaml\n'}
+[3.447588] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description\n'}
+[3.447829] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/camera.xacro\n'}
+[3.448010] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/Inertial.xacro\n'}
+[3.448166] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/Gazebo_control.xacro\n'}
+[3.448392] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/robot.urdf.xacro\n'}
+[3.448565] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/gps.xacro\n'}
+[3.448745] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/building_robot.xacro\n'}
+[3.448928] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//description/lidar.xacro\n'}
+[3.449096] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//worlds\n'}
+[3.449276] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot//worlds/World.world\n'}
+[3.449571] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/ament_index/resource_index/package_run_dependencies/first_robot\n'}
+[3.449863] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/ament_index/resource_index/parent_prefix_path/first_robot\n'}
+[3.450134] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/ament_prefix_path.sh\n'}
+[3.450351] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/ament_prefix_path.dsv\n'}
+[3.450613] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/path.sh\n'}
+[3.450831] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/environment/path.dsv\n'}
+[3.451051] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.bash\n'}
+[3.451274] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.sh\n'}
+[3.451522] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.zsh\n'}
+[3.451754] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/local_setup.dsv\n'}
+[3.451955] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/package.dsv\n'}
+[3.452229] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/ament_index/resource_index/packages/first_robot\n'}
+[3.452507] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/cmake/first_robotConfig.cmake\n'}
+[3.452686] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/cmake/first_robotConfig-version.cmake\n'}
+[3.452865] (first_robot) StdoutLine: {'line': b'-- Installing: /home/ghislain/TP_work/install/first_robot/share/first_robot/package.xml\n'}
+[3.455172] (first_robot) CommandEnded: {'returncode': 0}
+[3.515526] (-) TimerEvent: {}
+[3.617287] (-) TimerEvent: {}
+[3.632084] (first_robot) JobEnded: {'identifier': 'first_robot', 'rc': 0}
+[3.634124] (-) EventReactorShutdown: {}

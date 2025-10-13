@@ -1,0 +1,6 @@
+Invoking command in '/home/ghislain/TP_work/build/first_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ghislain/TP_work -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ghislain/TP_work/install/first_robot
+Invoked command in '/home/ghislain/TP_work/build/first_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ghislain/TP_work -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ghislain/TP_work/install/first_robot
+Invoking command in '/home/ghislain/TP_work/build/first_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ghislain/TP_work/build/first_robot -- -j4 -l4
+Invoked command in '/home/ghislain/TP_work/build/first_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ghislain/TP_work/build/first_robot -- -j4 -l4
+Invoking command in '/home/ghislain/TP_work/build/first_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ghislain/TP_work/build/first_robot
+Invoked command in '/home/ghislain/TP_work/build/first_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ghislain/TP_work/build/first_robot

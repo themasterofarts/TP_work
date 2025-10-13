@@ -117,7 +117,7 @@ def generate_launch_description():
             '-allow_renaming', 'true',
             '-x', '0.0',
             '-y', '0.0',
-            '-z', '1.0',
+            '-z', '0.7',
             '-R', '0.0',
             '-P', '0.0',
             
