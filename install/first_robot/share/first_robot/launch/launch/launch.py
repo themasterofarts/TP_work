@@ -1,1 +1,0 @@
-/home/ghislain/TP_work/launch/launch/launch.py
